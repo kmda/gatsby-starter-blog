@@ -2,6 +2,10 @@
 label: Pos template 1
 hide_body: false
 fields:
+- name: image
+  type: tag_list
+  default: []
+  label: Image
 - type: text
   name: title
   label: title
@@ -11,3 +15,7 @@ fields:
 - type: text
   name: description
   label: description
+- name: tag
+  type: tag_list
+  default: []
+  label: tag
