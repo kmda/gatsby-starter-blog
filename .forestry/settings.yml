@@ -7,11 +7,11 @@ sections:
 - type: document
   path: label
   label: label
-  match: "**/*"
 - type: directory
   path: ''
   label: Contoh label
   create: all
+  match: "**/*"
 - type: heading
   label: Contoh label
 upload_dir: uploads
